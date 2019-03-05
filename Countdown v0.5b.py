@@ -27,6 +27,9 @@ root.grid_columnconfigure(1, weight=1)
 
 def random_go():
 
+# official weights to letters by countdown
+# source http://www.thecountdownpage.com/letters.htm
+    
     vowels = ['A'] * 15 \
            + ['E'] * 21 \
            + ['I'] * 13 \

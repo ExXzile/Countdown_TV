@@ -113,7 +113,7 @@ def user_entry(select_letters):
             user_word.append(letter.upper())
         user_word_result(user_word)
 
-    user_entry_pop = tkinter.Tk()
+    user_entry_pop = tkinter.Toplevel()
     user_entry_pop.title('Entry')
     user_entry_pop.geometry('+1050+500')
 

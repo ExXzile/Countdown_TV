@@ -12,6 +12,7 @@ from num2words import num2words
 root = tkinter.Tk()
 root.title('Countdown, letters round')
 root.geometry('+500+100')
+root.resizable(width=False, height=True)
 
 root.grid_rowconfigure(0, weight=0)
 root.grid_rowconfigure(1, weight=0)
@@ -327,6 +328,6 @@ main_box.grid_columnconfigure(1, weight=0)
 main_box.grid_rowconfigure(0, weight=1)
 
 
-tkinter.Label(root, text='Countdown Letters | v0.6pre-a | 2019').grid(row=6, column=0, columnspan=2, sticky='s')
+tkinter.Label(root, text='Countdown Letters | v0.6a | 2019').grid(row=6, column=0, columnspan=2, sticky='s')
 
 root.mainloop()

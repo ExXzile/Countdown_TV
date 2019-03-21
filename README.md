@@ -4,6 +4,7 @@ Countdown TV practice
 requiers num2word module to be imported
 can be found here:
 https://github.com/savoirfairelinux/num2words
+or simply run 'pip install num2words' from command line
 
 Countdown letter random weights or chances of being pulled are applied.
 source: http://www.thecountdownpage.com/letters.htm

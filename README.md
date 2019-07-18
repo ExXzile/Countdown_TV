@@ -1,5 +1,5 @@
 # Countdown_TV
-Countdown TV practice
+Countdown TV practice, beginner project
 
 requiers num2word module to be imported
 can be found here:
